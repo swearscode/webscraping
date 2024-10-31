@@ -37,7 +37,7 @@ for product in products:
     })
 
 # Save the data to a JSON file
-with open('data1.json', 'w') as json_file:
+with open('Products.json', 'w') as json_file:
     json.dump(product_data, json_file, indent=4)
 
 print('Data has been scraped and saved to data.json.')
